@@ -1,18 +1,14 @@
-
 ---
 layout: archive
 title: "Teaching"
-permalink: /teaching
+permalink: /teaching/
 author_profile: true
+
+
 ---
 
 {% include base_path %}
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Instructor of Record
-======
-
-Teaching Assistant
-======
-
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
