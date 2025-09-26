@@ -4,9 +4,6 @@ permalink: /teaching/
 author_profile: true
 ---
 
-
-<h1>{{ page.title }}</h1>
-
 <!-- Instructor of Record Section -->
 <h2>Instructor of Record</h2>
 <ul>
