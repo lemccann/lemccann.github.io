@@ -3,7 +3,6 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-
 <div>
 
   <h2>Instructor of Record</h2>
