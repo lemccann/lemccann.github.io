@@ -10,7 +10,7 @@ layout: default
     <div style="margin-bottom: 1.5em;">
       <!-- Title as plain text -->
       <strong>{{ pub.title }}</strong>
-      
+
       <!-- Badge (if exists) -->
       {% if pub.badge %}
         <span style="background-color: #f0f0f0; border-radius: 4px; padding: 2px 6px; font-size: 0.85em; margin-left: 6px;">
@@ -23,12 +23,12 @@ layout: default
         <div><em>{{ pub.authors }}</em></div>
       {% endif %}
 
-      <!-- Journal / publication info -->
+      <!-- Journal / publication info (if exists) -->
       {% if pub.journal %}
         <div>{{ pub.journal }}</div>
       {% endif %}
 
-      <!-- Additional content / abstract -->
+      <!-- Additional content / abstract (if exists) -->
       {% if pub.content %}
         <div style="margin-top: 0.5em;">{{ pub.content }}</div>
       {% endif %}
