@@ -4,8 +4,6 @@ permalink: /teaching/
 author_profile: true
 ---
 
-<h1>{{ page.title }}</h1>
-
 <h2>Instructor of Record</h2>
 <ul>
 {% for post in site.teaching %}
