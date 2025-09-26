@@ -8,7 +8,7 @@ author_profile: true
   <h2>Instructor of Record</h2>
   {% for post in site.teaching %}
     {% if post.role == "Instructor" %}
-      <div style="margin-bottom: 2.5em;">
+      <div style="margin-bottom: 1.5em;">
         <strong>{{ post.title }}</strong> — {{ post.type }}
         {% if post.badge %}
           <span style="background-color: #f0f0f0; border-radius: 4px; padding: 2px 6px; font-size: 0.85em; margin-left: 6px;">
@@ -18,18 +18,16 @@ author_profile: true
         {% if post.semester %}
           <div><em>{{ post.semester }}</em></div>
         {% endif %}
-        <div>{{ post.content }}</div>
+        <!-- Only space between the last field and content -->
+        <div style="margin-top: 1em;">{{ post.content }}</div>
       </div>
     {% endif %}
   {% endfor %}
 
-  <!-- Spacer to ensure content below has space -->
-  <div style="height: 3em;"></div>
-
   <h2>Teaching Assistant</h2>
   {% for post in site.teaching %}
     {% if post.role == "TA" %}
-      <div style="margin-bottom: 2.5em;">
+      <div style="margin-bottom: 1.5em;">
         <strong>{{ post.title }}</strong> — {{ post.type }}
         {% if post.badge %}
           <span style="background-color: #f0f0f0; border-radius: 4px; padding: 2px 6px; font-size: 0.85em; margin-left: 6px;">
@@ -44,12 +42,10 @@ author_profile: true
             <em>Instructor: {{ post.instructor }}</em>
           </div>
         {% endif %}
-        <div>{{ post.content }}</div>
+        <!-- Only space between the last field and content -->
+        <div style="margin-top: 1em;">{{ post.content }}</div>
       </div>
     {% endif %}
   {% endfor %}
-
-  <!-- Spacer to ensure content below has space -->
-  <div style="height: 3em;"></div>
 
 </div>
