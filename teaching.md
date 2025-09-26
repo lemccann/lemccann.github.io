@@ -1,3 +1,9 @@
+---
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
 <h1>{{ page.title }}</h1>
 
 <ul>
