@@ -5,14 +5,18 @@ author_profile: true
 ---
 
 
+<h1>{{ page.title }}</h1>
+
 <!-- Instructor of Record Section -->
 <h2>Instructor of Record</h2>
 <ul>
 {% for post in site.teaching %}
   {% if post.role == "Instructor" %}
     <li>
-      {{ post.title }}
-      {% if post.type %} — {{ post.type }}{% endif %}
+      <strong>{{ post.title }}</strong>{% if post.type %} — {{ post.type }}{% endif %}
+      <div>
+        {{ post.content | markdownify }}
+      </div>
     </li>
   {% endif %}
 {% endfor %}
@@ -24,10 +28,11 @@ author_profile: true
 {% for post in site.teaching %}
   {% if post.role == "TA" %}
     <li>
-      {{ post.title }}
-      {% if post.type %} — {{ post.type }}{% endif %}
+      <strong>{{ post.title }}</strong>{% if post.type %} — {{ post.type }}{% endif %}
+      <div>
+        {{ post.content | markdownify }}
+      </div>
     </li>
   {% endif %}
 {% endfor %}
 </ul>
-
