@@ -2,9 +2,8 @@
 title: "Instructor of Record"
 collection: teaching
 permalink: /teaching/2015-spring-teaching-1
-venue: "University of Arizona, School of Government & Public Policy"
 ---
-
+University of Arizona, School of Government & Public Policy
 
 PA 470 | Public Organizational Management
 ======
