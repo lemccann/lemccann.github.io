@@ -3,7 +3,6 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-
 <div>
 
   <h2>Instructor of Record</h2>
@@ -19,7 +18,8 @@ author_profile: true
         {% if post.semester %}
           <div><em>{{ post.semester }}</em></div>
         {% endif %}
-        <div>{{ post.content }}</div>
+        <!-- Only space between the last field and content -->
+        <div style="margin-top: 1em;">{{ post.content }}</div>
       </div>
     {% endif %}
   {% endfor %}
@@ -42,7 +42,8 @@ author_profile: true
             <em>Instructor: {{ post.instructor }}</em>
           </div>
         {% endif %}
-        <div>{{ post.content }}</div>
+        <!-- Only space between the last field and content -->
+        <div style="margin-top: 1em;">{{ post.content }}</div>
       </div>
     {% endif %}
   {% endfor %}
