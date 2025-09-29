@@ -1,7 +1,7 @@
 ---
 title: "Has the vision of a gender quota rule been realized for community-based water management committees in Kenya?"
 collection: publications
-date: 2021
+date: 2021-01-01
 venue: "World Development"
 order: 1
 doi: "https://doi.org/10.1016/j.worlddev.2020.105154"
