@@ -5,6 +5,6 @@ date: 2021-01-01
 venue: "World Development"
 order: 1
 doi: "https://doi.org/10.1016/j.worlddev.2020.105154"
-authors: "Davies, J., Hannah, C., Guido, Z., Zimmer, A., McCann, L., Battersby J., & Evans, T."
+authors: "Hannah, C., Giroux, S., Krell, N., Lopus, S., McCann, L. E., Zimmer, A., Caylor, K. K. & Evans, T. P."
 excerpt: "1–2 sentence summary of what this work is about."
 ---
