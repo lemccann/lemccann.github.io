@@ -1,51 +1,26 @@
 ---
-title: "Teaching"
-permalink: /teaching/
+title: "Research"
+permalink: /research/
 author_profile: true
 ---
+
 <div>
 
-  <h2>Instructor of Record</h2>
-  {% for post in site.teaching %}
-    {% if post.role == "Instructor" %}
-      <div style="margin-bottom: 1.5em;">
-        <strong>{{ post.title }}</strong> — {{ post.type }}
-        {% if post.badge %}
-          <span style="background-color: #f0f0f0; border-radius: 4px; padding: 2px 6px; font-size: 0.85em; margin-left: 6px;">
-            {{ post.badge }}
-          </span>
-        {% endif %}
-        {% if post.semester %}
-          <div><em>{{ post.semester }}</em></div>
-        {% endif %}
-        <!-- Only space between the last field and content -->
-        <div style="margin-top: 1em;">{{ post.content }}</div>
-      </div>
-    {% endif %}
-  {% endfor %}
-
-  <h2>Teaching Assistant</h2>
-  {% for post in site.teaching %}
-    {% if post.role == "TA" %}
-      <div style="margin-bottom: 1.5em;">
-        <strong>{{ post.title }}</strong> — {{ post.type }}
-        {% if post.badge %}
-          <span style="background-color: #f0f0f0; border-radius: 4px; padding: 2px 6px; font-size: 0.85em; margin-left: 6px;">
-            {{ post.badge }}
-          </span>
-        {% endif %}
-        {% if post.semester %}
-          <div><em>{{ post.semester }}</em></div>
-        {% endif %}
-        {% if post.instructor %}
-          <div style="color: #777; font-size: 0.85em; margin-top: 2px;">
-            <em>Instructor: {{ post.instructor }}</em>
-          </div>
-        {% endif %}
-        <!-- Only space between the last field and content -->
-        <div style="margin-top: 1em;">{{ post.content }}</div>
-      </div>
-    {% endif %}
+  <h2>Publications</h2>
+  {% assign pubs = site.publications | sort: "date" | reverse %}
+  {% for pub in pubs %}
+    <div style="margin-bottom: 1.5em;">
+      <strong>{{ pub.title }}</strong>
+      {% if pub.venue %}
+        — <em>{{ pub.venue }}</em>
+      {% endif %}
+      {% if pub.date %}
+        <span style="color: #555; margin-left: 6px;">({{ pub.date | date: "%Y" }})</span>
+      {% endif %}
+      {% if pub.excerpt %}
+        <div style="margin-top: 4px;">{{ pub.excerpt }}</div>
+      {% endif %}
+    </div>
   {% endfor %}
 
 </div>
