@@ -23,5 +23,12 @@ author_profile: true
       <div style="margin-top: 4px;">{{ pub.excerpt }}</div>
     {% endif %}
 
+     <!-- DOI link -->
+    {% if pub.doi %}
+      <div style="margin-top: 2px;">
+        <a href="{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
+      </div>
+    {% endif %}
+
   </div>
 {% endfor %}
