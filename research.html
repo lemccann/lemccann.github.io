@@ -3,19 +3,32 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+<div>
+  {% assign pubs = site.publications | sort: "order" | reverse %}
+  {% for pub in pubs %}
+    <div style="margin-bottom: 1.5em;">
 
-{% assign pubs = site.publications | sort: "order" | reverse %}
-{% for pub in pubs %}
-  <div style="margin-bottom: 1.5em;">
-    <strong>{{ pub.title }}</strong>
-    {% if pub.venue %}
-      — <em>{{ pub.venue }}</em>
-    {% endif %}
-    {% if pub.date %}
-      <span style="color: #555; margin-left: 6px;">({{ pub.date | date: "%Y" }})</span>
-    {% endif %}
-    {% if pub.excerpt %}
-      <div style="margin-top: 4px;">{{ pub.excerpt }}</div>
-    {% endif %}
-  </div>
-{% endfor %}
+      <!-- Title -->
+      <strong>{{ pub.title }}</strong>
+
+      <!-- Venue -->
+      {% if pub.venue %}
+        — <em>{{ pub.venue }}</em>
+      {% endif %}
+
+      <!-- Year -->
+      {% if pub.date %}
+        <span style="color: #555; margin-left: 6px;">
+          ({{ pub.date | date: "%Y" }})
+        </span>
+      {% endif %}
+
+      <!-- Excerpt -->
+      {% if pub.excerpt %}
+        <div style="margin-top: 4px;">{{ pub.excerpt }}</div>
+      {% endif %}
+
+    </div>
+  {% endfor %}
+
+</div>
