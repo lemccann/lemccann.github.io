@@ -5,7 +5,7 @@ date: 2025-01-02
 venue: "American Journal of Agricultural Economics"
 order: 5
 doi: "https://ideas.repec.org/p/ags/aaea21/312894.html"
-authors: "McCann, L.E., Michler, J.D., Mwangala, M., Olurotimi, O., & Estrada-Carmona, N."
+author: "McCann, L.E., Michler, J.D., Mwangala, M., Olurotimi, O., & Estrada-Carmona, N."
 excerpt: "Over 80% of the population in rural Sub-Saharan Africa relies on biomass cooking fuel,
 a significant contributor to anthropogenic greenhouse gases. We use a field experiment
 in Zambia to investigate the impact of solar stoves on biomass fuel use and cooking
