@@ -1,33 +1,27 @@
 ---
 title: "Research"
-permalink: /publications/
+permalink: /research/
 author_profile: true
 ---
-<div>
-  {% assign pubs = site.publications | sort: "order" | reverse %}
-  {% for pub in pubs %}
-    <div style="margin-bottom: 1.5em;">
+  <div style="margin-bottom: 1.5em;"> {% for pub in pubs %}
+{% assign pubs = site.publications | sort: "order" | reverse %}
+    <!-- Title -->
+    <strong>{{ pub.title }}</strong>
 
-      <!-- Title -->
-      <strong>{{ pub.title }}</strong>
+    <!-- Venue -->
+    {% if pub.venue %}
+      — <em>{{ pub.venue }}</em>
+    {% endif %}
 
-      <!-- Venue -->
-      {% if pub.venue %}
-        — <em>{{ pub.venue }}</em>
-      {% endif %}
+    <!-- Year only -->
+    {% if pub.date %}
+      <span style="color: #555;">({{ pub.date | date: "%Y" }})</span>
+    {% endif %}
 
-      <!-- Year -->
-      {% if pub.date %}
-        <span style="color: #555; margin-left: 6px;">
-          ({{ pub.date | date: "%Y" }})
-        </span>
-      {% endif %}
+    <!-- Excerpt -->
+    {% if pub.excerpt %}
+      <div style="margin-top: 4px;">{{ pub.excerpt }}</div>
+    {% endif %}
 
-      <!-- Excerpt -->
-      {% if pub.excerpt %}
-        <div style="margin-top: 4px;">{{ pub.excerpt }}</div>
-      {% endif %}
-      
-    </div>
-  {% endfor %}
-</div>
+  </div>
+{% endfor %}
