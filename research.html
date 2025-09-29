@@ -19,7 +19,7 @@ author_profile: true
     <!-- Authors -->
     {% if pub.author %}
       <div>
-        {% assign authors = pub.author | split: ", " %}
+        {% assign authors = pub.author | split: "; " %}
         {% for a in authors %}
           {% assign highlight = false %}
           {% for my_name in my_names %}
