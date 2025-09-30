@@ -9,4 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Click here to download my CV.
+<p>
+  <a href="/files/LEMcCann_CV.pdf" target="_blank" rel="noopener noreferrer">
+    Click here to download my CV.
+  </a>
+</p>
