@@ -58,14 +58,13 @@ author_profile: true
           {% endif %}
 
           <!-- Download Paper -->
-          {% if pub.paper %}
-            <p>
-              <a href="{{ pub.paper }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Download Paper
-              </a>
-            </p>
-          {% endif %}
-
+  {% if pub.paper %}
+  <p>
+    <a href="{{ pub.paper }}" class="download-btn" target="_blank" rel="noopener noreferrer">
+      Download Paper
+    </a>
+  </p>
+{% endif %}
         </div>
       {% endfor %}
 
