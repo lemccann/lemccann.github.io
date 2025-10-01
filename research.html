@@ -16,38 +16,37 @@ author_profile: true
 <!-- Title -->
 <strong>
   {% if pub.doi %}
-    <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
+    <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer" style="color:#001f3f;">{{ pub.title }}</a>
   {% else %}
     {{ pub.title }}
   {% endif %}
 </strong>
 
-    <!-- Authors -->
-    {% if pub.author %}
-      <div>
-        {% assign authors = pub.author | split: "; " %}
-        {% for a in authors %}
-          {% assign highlight = false %}
-          {% for my_name in my_names %}
-            {% if a == my_name %}
-              {% assign highlight = true %}
-            {% endif %}
-          {% endfor %}
+   <!-- Authors -->
+{% if pub.author %}
+  <div>
+    {% assign authors = pub.author | split: "; " %}
+    {% for a in authors %}
+      {% assign highlight = false %}
+      {% for my_name in my_names %}
+        {% if a == my_name %}
+          {% assign highlight = true %}
+        {% endif %}
+      {% endfor %}
 
-          {% if highlight %}
-            <strong style="color:#0074D9;">{{ a }}</strong>{% unless forloop.last %}, {% endunless %}
-          {% else %}
-            {{ a }}{% unless forloop.last %}, {% endunless %}
-          {% endif %}
+      {% if highlight %}
+        <strong>{{ a }}</strong>{% unless forloop.last %}, {% endunless %}
+      {% else %}
+        {{ a }}{% unless forloop.last %}, {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
 
-        {% endfor %}
-      </div>
-    {% endif %}
-
-    <!-- Venue -->
-    {% if pub.venue %}
-      — <em>{{ pub.venue }}</em>
-    {% endif %}
+<!-- Venue -->
+{% if pub.venue %}
+  <div>{{ pub.venue }}</div>
+{% endif %}
 
     <!-- Year only -->
     {% if pub.date %}
