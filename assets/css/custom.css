@@ -1,0 +1,15 @@
+/* Button style matching CV button, no icon */
+.download-btn {
+  background-color: #007D84; /* dark navy blue, same as CV button */
+  color: white;               /* text color */
+  text-decoration: none;      /* removes underline */
+  padding: 0.5em 1em;         /* button padding */
+  border-radius: 6px;         /* slightly rounded corners */
+  display: inline-block;      /* ensures padding works properly */
+  font-weight: bold;           /* bold text like CV button */
+}
+
+.download-btn:hover {
+  background-color: #003366;  /* darker on hover */
+  text-decoration: none;      /* keep no underline */
+}
