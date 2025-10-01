@@ -16,7 +16,7 @@ author_profile: true
 <!-- Title -->
 <strong>
   {% if pub.doi %}
-    <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer" style="color:#001f3f;">{{ pub.title }}</a>
+    <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer" style="color:#1E5288;">{{ pub.title }}</a>
   {% else %}
     {{ pub.title }}
   {% endif %}
@@ -43,15 +43,14 @@ author_profile: true
   </div>
 {% endif %}
 
-<!-- Venue -->
-{% if pub.venue %}
-  <div>{{ pub.venue }}</div>
-{% endif %}
-
-    <!-- Year only -->
-    {% if pub.date %}
-      <span style="color:#555;">({{ pub.date | date: "%Y" }})</span>
-    {% endif %}
+  <!-- Venue + Publication Date on same line -->
+  {% if pub.venue or pub.date %}
+    <div>
+      {% if pub.venue %}{{ pub.venue }}{% endif %}
+      {% if pub.date %}, {{ pub.date }}{% endif %}
+    </div>
+  {% endif %}
+</div>
 
     <!-- Excerpt -->
     {% if pub.excerpt %}
