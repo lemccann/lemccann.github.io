@@ -1,4 +1,11 @@
 
+/* Container for each paper */
+.paper-entry {
+  margin-bottom: 2em;   /* space between papers */
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
 /* Button style matching CV button, no icon */
 
 a.download-btn {
