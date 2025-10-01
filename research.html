@@ -9,7 +9,7 @@ author_profile: true
     <main class="col-main">
 <h2> Published Journal Articles</h2>
 
-{% assign my_names = "McCann, L.;McCann, L.E." | split: ";" %}
+{% assign my_names = "McCann, L.;McCann, L. E." | split: ";" %}
 {% assign pubs = site.publications | sort: "order" | reverse %}
 {% for pub in pubs %}
   <div style="margin-bottom: 1.5em;">
