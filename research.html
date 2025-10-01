@@ -4,6 +4,9 @@ permalink: /research/
 layout: single
 author_profile: true
 ---
+<div class="container">
+  <div class="row">
+    <main class="col-main">
 <h2> Published Journal Articles</h2>
 
 {% assign my_names = "McCann, L.;McCann, L.E." | split: ";" %}
@@ -11,54 +14,65 @@ author_profile: true
 {% for pub in pubs %}
   <div style="margin-bottom: 1.5em;">
 
-<!-- Title -->
-<strong>
-  {% if pub.doi %}
-    <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer" style="color:#1E5288;">{{ pub.title }}</a>
-  {% else %}
-    {{ pub.title }}
-  {% endif %}
-</strong>
+        <!-- Title -->
+          <strong>
+            {% if pub.doi %}
+              <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer" style="color:#1E5288;">{{ pub.title }}</a>
+            {% else %}
+              {{ pub.title }}
+            {% endif %}
+          </strong>
 
-   <!-- Authors -->
-{% if pub.author %}
-  <div>
-    {% assign authors = pub.author | split: "; " %}
-    {% for a in authors %}
-      {% assign highlight = false %}
-      {% for my_name in my_names %}
-        {% if a == my_name %}
-          {% assign highlight = true %}
-        {% endif %}
+          <!-- Authors -->
+          {% if pub.author %}
+            <div>
+              {% assign authors = pub.author | split: "; " %}
+              {% for a in authors %}
+                {% assign highlight = false %}
+                {% for my_name in my_names %}
+                  {% if a == my_name %}
+                    {% assign highlight = true %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if highlight %}
+                  <strong>{{ a }}</strong>{% unless forloop.last %}, {% endunless %}
+                {% else %}
+                  {{ a }}{% unless forloop.last %}, {% endunless %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          <!-- Venue + Publication Date -->
+          {% if pub.venue or pub.date %}
+            <div>
+              {% if pub.venue %}{{ pub.venue }}{% endif %}
+              {% if pub.date %}<span style="color:#555;">({{ pub.date | date: "%Y" }})</span>{% endif %}
+            </div>
+          {% endif %}
+
+          <!-- Excerpt -->
+          {% if pub.excerpt %}
+            <div style="margin-top: 4px;">{{ pub.excerpt }}</div>
+          {% endif %}
+
+          <!-- Download Paper -->
+          {% if pub.paper %}
+            <p>
+              <a href="{{ pub.paper }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Download Paper
+              </a>
+            </p>
+          {% endif %}
+
+        </div>
       {% endfor %}
 
-      {% if highlight %}
-        <strong>{{ a }}</strong>{% unless forloop.last %}, {% endunless %}
-      {% else %}
-        {{ a }}{% unless forloop.last %}, {% endunless %}
-      {% endif %}
-    {% endfor %}
+    </main>
+
+    <aside class="col-sidebar">
+      {% include sidebar.html %}
+    </aside>
   </div>
-{% endif %}
-
-  <!-- Venue + Publication Date on same line -->
-  {% if pub.venue or pub.date %}
-    <div>{% if pub.venue %}{{ pub.venue }}{% endif %}{% if pub.date %}<span style="color:#555;">({{ pub.date | date: "%Y" }})</span>{% endif %}</div>
-  {% endif %}
-
-
-    <!-- Excerpt -->
-    {% if pub.excerpt %}
-      <div style="margin-top: 4px;">{{ pub.excerpt }}</div>
-    {% endif %}
-
-    {% if pub.paper %}
-  <p>
-    <a href="{{ pub.paper }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-      Download Paper
-    </a>
-  </p>
-{% endif %}
-  </div>
-{% endfor %}
 </div>
