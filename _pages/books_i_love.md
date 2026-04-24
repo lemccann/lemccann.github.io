@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Books I Read for Fun, But Think About Regularly"
-permalink: /papers/books_i_love
+permalink: /books_i_love/
 ---
 
 <div style="display: flex; margin-bottom: 20px;">
