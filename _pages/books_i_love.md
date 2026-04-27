@@ -4,7 +4,7 @@ title: "Books That Have Influenced Me Beyond Measure"
 permalink: /books_i_love/
 ---
 
-Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly, this preference has become unwieldy for someone whose job is focused on development, economics, and policy. At some point I realized I needed to treat my reading like I do my running. I incorporate “rest and recovery” books after I read something heavy. These are almost exclusively rom coms, because I like the predictability and I need something that isn't going to break me further. I can generally tell within 20 pages how many romcoms I will need to consume after reading something heavy. My current read, <em>Blood Meridian</em> by Cormac McCarthy, will require at least three. 
+Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly, this preference has become unwieldy for someone whose job is focused on development, economics, and policy. At some point I realized I needed to treat my reading like I do my running. I incorporate “rest and recovery” books after I read something heavy. These are almost exclusively rom coms, because I like the predictability and I need something that isn't going to break me further. I can generally tell within 20 pages how many rom coms I will need to consume after reading something heavy. My current read, <em>Blood Meridian</em> by Cormac McCarthy, will require at least three. 
 
 
 <div class="books-card">
