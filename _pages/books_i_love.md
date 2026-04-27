@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Books I Read for Fun, But Think About Regularly"
+title: "Books That Have Influenced Me Beyond Measure"
 permalink: /books_i_love/
 ---
 
