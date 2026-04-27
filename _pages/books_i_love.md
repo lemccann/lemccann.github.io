@@ -13,10 +13,8 @@ Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly,
 <div>
 <h3>East of Eden</h3>
     <em>John Steinbeck (1952)</em>
-    <p>This is my all-time favorite book. Steinbeck’s characters have always reminded me of my grandma, who was born in 1927. Grapes of Wrath obviously appeals to my policy interests topically, but the eternal struggle to choose the “right” path gets me every time. I am also a sucker for religious allusions (of any variety). </p>
-
-<p>Everyone (read: Reddit) says “If you like Steinbeck, you’ll like Cormac McCarthy.” I can say that this is not the case for me. I see why people say this, but I think Steinbeck would be disappointed. He saw the world for what it was, but still had so much love for people and hope. I don’t see this with McCarthy. 
-</p>
-<h4 style="color:#ff69b4; font-family:'Brush Script MT', cursive; font-size:1.8em; font-weight:normal;">
- Rom Com Recovery Prescription: </h4> 1 Emily Henry, 1 with a pretty cover on display at your local library
+<p>This is my all-time favorite book. Steinbeck’s characters have always reminded me of my grandma, who was born in 1927. Grapes of Wrath obviously appeals to my policy interests topically, but the eternal struggle to choose the “right” path gets me every time. I am also a sucker for religious allusions (of any variety).</p> 
+<p>Everyone (read: Reddit) says “If you like Steinbeck, you’ll like Cormac McCarthy.” I can say that this is not the case for me. I see why people say this, but I think Steinbeck would be disappointed. He saw the world for what it was, but still had so much love for people and hope. I don’t see this with McCarthy. </p>
+<p style="color:#ff69b4; font-family:'Brush Script MT', cursive; font-size:1.8em; font-weight:normal;">
+ Rom Com Recovery Prescription: </p> 1 Emily Henry, 1 with a pretty cover on display at your local library
 </div>
