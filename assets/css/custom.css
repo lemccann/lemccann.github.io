@@ -25,10 +25,41 @@ a.download-btn:hover {
 }
 
 
-.pink-script {
-  color: #ff69b4;
-  font-family: "Parisienne", cursive;
-  font-size: 2em;
-  font-weight: normal;
+.books-card {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 22px;
+  align-items: flex-start;
 }
 
+.books-card img {
+  width: 140px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.books-content {
+  flex: 1;
+}
+
+.books-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: #111;
+}
+
+.books-meta {
+  margin: 0;
+}
+
+.books-blurb {
+  margin-top: 4px;
+}
+
+.books-rating {
+  margin-top: 8px;
+  font-family: "Parisienne", cursive;
+  font-size: 1.6em;
+  color: #ff69b4;
+}
