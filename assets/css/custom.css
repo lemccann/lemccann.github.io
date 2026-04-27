@@ -25,14 +25,19 @@ a.download-btn:hover {
 }
 
 
+
 .books-card {
   display: flex;
   gap: 16px;
   margin-bottom: 22px;
-  align-items: flex-start;
 }
 
-.books-card img {
+.books-image {
+  display: flex;
+  align-items: center;  /* vertical centering */
+}
+
+.books-image img {
   width: 140px;
   height: auto;
   border-radius: 6px;
