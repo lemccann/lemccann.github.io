@@ -8,9 +8,9 @@ Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly,
 
 
 <div class="books-card">
-
+  <div class="books-image">
 <img src="/images/east_of_eden_cover.jpeg" style="width:140px; margin-right:15px;">
-
+  </div>
   <div class="books-content">
 
     <div class="books-title">East of Eden</div>
