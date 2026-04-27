@@ -18,7 +18,7 @@ Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly,
     <p class="books-meta"><strong>John Steinbeck (1952)</strong></p>
 
     <p class="books-blurb">
-This is my all-time favorite book. <em>The Grapes of Wrath</em> obviously appeals to my policy interests topically (and who doesn't love the jalopy vignette in chapter 7?), but East of Eden's message about the gift of choice and the consequences of choosing gets me every time. I am also a sucker for religious allusions (of any variety).</p> 
+This is my all-time favorite book. <em>The Grapes of Wrath</em> obviously appeals to my policy interests topically (and who doesn't love the jalopy vignette in chapter 7?), but <em>East of Eden</em>'s message about the gift of choice and the consequences of choosing gets me every time. I am also a sucker for religious allusions (of any variety).</p> 
 <p>Everyone (read: Reddit) says “If you like Steinbeck, you’ll like Cormac McCarthy.” I can say that this is not the case for me. I see why people say this, but I think Steinbeck would be disappointed in the comparison. He saw the violence in the world, but still had so much love and hope for people. I don’t see this with McCarthy.
     </p>
 
