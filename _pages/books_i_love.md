@@ -9,12 +9,14 @@ Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly,
 <div style="display: flex; margin-bottom: 20px;">
   <img src="/images/east_of_eden_cover.jpeg" style="width:140px; margin-right:15px;">
   <div>
-    East of Eden
+<h3>East of Eden</h3>
     <em>John Steinbeck (1952)</em>
     <p>This is my all-time favorite book. Steinbeck’s characters have always reminded me of my grandma, who was born in 1927. Grapes of Wrath obviously appeals to my policy interests topically, but the eternal struggle to choose the “right” path gets me every time. I am also a sucker for religious allusions (of any variety). </p>
 
 <p>Everyone (read: Reddit) says “If you like Steinbeck, you’ll like Cormac McCarthy.” I can say that this is not the case for me. I see why people say this, but I think Steinbeck would be disappointed. He saw the world for what it was, but still had so much love for people and hope. I don’t see this with McCarthy. 
 </p>
-     <em>Rom Com Recovery Prescription:</em>
+<h4><span style="color:#ff69b4; font-family:'Brush Script MT', cursive; font-size:1.8em; font-weight:normal;">
+Paper Title One
+</span></h4>
   </div>
 </div>
