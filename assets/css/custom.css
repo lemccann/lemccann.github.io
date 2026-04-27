@@ -23,3 +23,11 @@ a.download-btn:hover {
   background-color: #003366 !important;
   text-decoration: none !important;
 }
+
+
+.pink-script {
+  color: #ff69b4;
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.8em;
+  font-weight: normal;
+}
