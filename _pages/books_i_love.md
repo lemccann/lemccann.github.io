@@ -7,7 +7,7 @@ permalink: /books_i_love/
 Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly, this preference has become unwieldy for someone whose job is focused on development, economics, and policy. At some point I realized I needed to treat my reading like I do my running. I incorporate “rest and recovery” books after I read something heavy. I can generally tell within 20 pages how many romcoms I will need to consume after reading something heavy. My current read, Blood Meridian by Cormac McCarthy, will require at least three. 
 
 <div style="display: flex; margin-bottom: 20px;">
-  <img src="/images/papers/paper1.png" style="width:140px; margin-right:15px;">
+  <img src="/images/papers/east_of_eden_cover.jpeg" style="width:140px; margin-right:15px;">
   <div>
     <strong>East of Eden</strong><br>
     <em>Steinbeck (1952)</em>
