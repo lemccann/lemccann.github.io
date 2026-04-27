@@ -9,9 +9,11 @@ Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly,
 
 <div class="books-card">
 
+<img src="/images/east_of_eden_cover.jpeg" style="width:140px; margin-right:15px;">
+
   <div class="books-content">
 
-    <div class="books-title">East ofEden</div>
+    <div class="books-title">East of Eden</div>
 
     <p class="books-meta"><strong>John Steinbeck (1952)</strong></p>
 
