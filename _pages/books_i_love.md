@@ -15,8 +15,8 @@ Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly,
 
 <p>Everyone (read: Reddit) says “If you like Steinbeck, you’ll like Cormac McCarthy.” I can say that this is not the case for me. I see why people say this, but I think Steinbeck would be disappointed. He saw the world for what it was, but still had so much love for people and hope. I don’t see this with McCarthy. 
 </p>
-<h4><span style="color:#ff69b4; font-family:'Brush Script MT', cursive; font-size:1.8em; font-weight:normal;">
-Paper Title One
-</span></h4>
+<h4 style="color:#ff69b4; font-family:'Brush Script MT', cursive; font-size:1.8em; font-weight:normal;">
+  Paper Title Two
+</h4>
   </div>
 </div>
