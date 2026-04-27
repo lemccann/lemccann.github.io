@@ -57,9 +57,18 @@ a.download-btn:hover {
   margin-top: 4px;
 }
 
-.books-rating {
-  margin-top: 8px;
+
+.books-rating-title {
   font-family: "Parisienne", cursive;
   font-size: 1.6em;
   color: #ff69b4;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.books-rating-text {
+  font-family: inherit;
+  color: #333;
+  margin: 0;
+  font-size: 0.95em;
 }
