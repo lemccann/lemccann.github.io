@@ -13,7 +13,7 @@ Most of the books I enjoy reading for fun are “heavy” reads. Unsurprisingly,
   </div>
   <div class="books-content">
 
-    <div class="books-title">East of Eden</div>
+    <div class="books-title">East of Eden (read: Spring before grad school)</div>
 
     <p class="books-meta"><strong>John Steinbeck (1952)</strong></p>
 
@@ -46,7 +46,7 @@ This is my all-time favorite book. <em>The Grapes of Wrath</em> obviously appeal
   </div>
   <div class="books-content">
 
-    <div class="books-title">Invisible Man</div>
+    <div class="books-title">Invisible Man (read: second year of PhD)</div>
 
     <p class="books-meta"><strong>Ralph Ellison (1952)</strong></p>
 
@@ -72,7 +72,7 @@ TBD
   </div>
   <div class="books-content">
 
-    <div class="books-title">Catch-22</div>
+    <div class="books-title">Catch-22 (read: second year of PhD)</div>
 
     <p class="books-meta"><strong>Joseph Heller (1961)</strong></p>
 
@@ -99,7 +99,7 @@ TBD
   </div>
   <div class="books-content">
 
-    <div class="books-title">Go Tell It on the Mountain</div>
+    <div class="books-title">Go Tell It on the Mountain (read: first year of PhD)</div>
 
     <p class="books-meta"><strong> James Baldwin (1953)</strong></p>
 
