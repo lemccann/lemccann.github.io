@@ -60,3 +60,57 @@ TBD
 
   </div>
 </div>
+
+<div class="books-card">
+  <div class="books-image">
+<img src="/images/catch_22_cover.jpeg" style="width:140px; margin-right:15px;">
+  </div>
+  <div class="books-content">
+
+    <div class="books-title">Catch-22</div>
+
+    <p class="books-meta"><strong>Joseph Heller (1961)</strong></p>
+
+    <p class="books-blurb">
+TBD
+    </p>
+
+    <!-- Rating section -->
+    <div class="books-rating-title">
+     Rom Com Prescription:
+    </div>
+
+    <p class="books-rating-text">
+    1 Josie Silver, 1 Abby Jimenez (Part of Your World series)
+
+    </p>
+
+  </div>
+</div>
+
+<div class="books-card">
+  <div class="books-image">
+<img src="/images/go_tell_it_on_the_mountain_cover.jpg" style="width:140px; margin-right:15px;">
+  </div>
+  <div class="books-content">
+
+    <div class="books-title">Go Tell It on the Mountain</div>
+
+    <p class="books-meta"><strong> James Baldwin (1953)</strong></p>
+
+    <p class="books-blurb">
+TBD
+    </p>
+
+    <!-- Rating section -->
+    <div class="books-rating-title">
+     Rom Com Prescription:
+    </div>
+
+    <p class="books-rating-text">
+1 Emily Henry, 1 Julia Whelan (not My Oxford Year)
+
+    </p>
+
+  </div>
+</div>
